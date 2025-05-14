@@ -102,6 +102,6 @@ Server API akan aktif di: http://localhost:8000
 
 - Evaluasi Model <br>
 ![Screenshot](images/Screenshot-streamlit.png) <br>
-![Screenshot](images/Screenshot-tangan-(2).png)
+![Screenshot](images/Screenshot-tangan.png)
 
 
