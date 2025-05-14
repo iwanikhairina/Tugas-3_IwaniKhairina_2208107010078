@@ -50,38 +50,46 @@ Tugas3-Pembelajaran_Machine_Learning/
 
 ```bash
 git clone https://github.com/iwanikhairina/Tugas-3_IwaniKhairina_2208107010078
+```
 
 ### 2. Siapkan Environment Python
 Gunakan Python versi 3.9 sampai 3.11.
 Buat environment baru, lalu install semua dependency dengan:
+```bash
 pip install -r requirements.txt
+```
 
 ### 3. Dataset
 Unduh dataset dari Kaggle:
 🔗 Rock-Paper-Scissors Dataset – Kaggle
 Struktur folder dataset yang dibutuhkan:
+```bash
 dataset/
 ├── rock/
 ├── paper/
 └── scissors/
+```
 
 ### 4. Menjalankan Program
 ✅ Frontend (Streamlit)
 Masuk ke folder frontend/ lalu jalankan:
+```bash
 streamlit run app.py
 Streamlit akan berjalan di: http://localhost:8501
+```
 
 ### ✅ Backend (FastAPI)
 Masuk ke folder backend/ lalu jalankan:
+```bash
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 Server API akan aktif di: http://localhost:8000
+```
 
 ## 🎯 Tujuan Pembelajaran
 
-- Memahami alur kerja training dan deployment model machine learning.
-- Membiasakan diri mengintegrasikan model ke dalam aplikasi backend nyata.
-- Melatih kerapihan penyusunan struktur proyek dan dokumentasi.
-
+- Mengenal proses lengkap dari pelatihan hingga penyebaran (deployment) model machine learning.
+- Mengasah kemampuan integrasi model ke dalam sistem backend yang berjalan nyata.
+- Menumbuhkan kebiasaan dalam menyusun proyek yang terstruktur rapi dan terdokumentasi dengan baik.
 ---
 
 ## 📋 Hasil Model dan Tampilan Frontend
