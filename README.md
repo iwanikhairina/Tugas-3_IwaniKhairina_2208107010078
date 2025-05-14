@@ -29,5 +29,71 @@ Model yang telah dilatih akan diintegrasikan ke dalam aplikasi backend berbasis 
 ---
 
 ## 🗂️ Struktur Direktori Proyek
+Tugas3-Pembelajaran_Machine_Learning/
+├── backend/
+│ ├── main.py # Kode utama backend (FastAPI)
+│ └── requirements.txt # Dependensi backend
+├── frontend/
+│ ├── main.py # Tampilan frontend (misal: Streamlit)
+│ └── requirements.txt # Dependensi frontend
+├── model/
+│ └── best_transfer.keras # File model hasil pelatihan
+├── dataset/
+│ ├── rock/
+│ ├── paper/
+│ └── scissors/
+└── README.md
+
+## 🚀 Langkah Penggunaan
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/iwanikhairina/Tugas-3_IwaniKhairina_2208107010078
+
+### 2. Siapkan Environment Python
+Gunakan Python versi 3.9 sampai 3.11.
+Buat environment baru, lalu install semua dependency dengan:
+pip install -r requirements.txt
+
+### 3. Dataset
+Unduh dataset dari Kaggle:
+🔗 Rock-Paper-Scissors Dataset – Kaggle
+Struktur folder dataset yang dibutuhkan:
+dataset/
+├── rock/
+├── paper/
+└── scissors/
+
+### 4. Menjalankan Program
+✅ Frontend (Streamlit)
+Masuk ke folder frontend/ lalu jalankan:
+streamlit run app.py
+Streamlit akan berjalan di: http://localhost:8501
+
+### ✅ Backend (FastAPI)
+Masuk ke folder backend/ lalu jalankan:
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+Server API akan aktif di: http://localhost:8000
+
+## 🎯 Tujuan Pembelajaran
+
+- Memahami alur kerja training dan deployment model machine learning.
+- Membiasakan diri mengintegrasikan model ke dalam aplikasi backend nyata.
+- Melatih kerapihan penyusunan struktur proyek dan dokumentasi.
+
+---
+
+## 📋 Hasil Model dan Tampilan Frontend
+
+- Training Model <br>
+![Screenshot](images/Screenshot-training-model.png))
+
+- Evaluasi Model <br>
+![Screenshot](images/Screenshot-hasil-evaluasi-model.png)
+
+- Evaluasi Model <br>
+![Screenshot](images/Screenshot-frontend-(1).png) <br>
+![Screenshot](images/Screenshot-frontend-(2).png)
 
 
